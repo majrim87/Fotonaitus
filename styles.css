@@ -1,0 +1,35 @@
+.im{
+	padding:5px;
+	padding-right:0px;
+}
+#about{
+	margin-top: 10px;
+}
+#minu{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+#tekst{
+	width:400%;
+}
+#pilt{
+	width:100%;
+	height:auto;
+	padding-left:20px;
+}
+@media only screen and (max-width: 850px) {
+  #minu{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+#pilt{
+	width:100%;
+	height:auto;
+	padding-left:00px;
+}
+#tekst{
+	width:100%;
+}
+}
